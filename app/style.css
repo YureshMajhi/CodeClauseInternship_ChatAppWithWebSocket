@@ -1,0 +1,50 @@
+body {
+  background: #000;
+}
+
+.chatbox {
+  border: 3px solid red;
+  max-width: 500px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+h1 {
+  color: white;
+  font-family: sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: red;
+  border: none;
+  color: white;
+  font: bold;
+  font-size: 16px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(255, 0, 0, 0.76);
+}
+
+li {
+  list-style-type: none;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+}
